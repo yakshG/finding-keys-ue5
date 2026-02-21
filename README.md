@@ -14,5 +14,8 @@ See: [ue5.5-multiplayer-subsystem](https://github.com/yakshG/ue5.5-multiplayer-s
 - Visual Studio / Rider
 - Steam (for Steam sessions)
 
+## Environment Assets used
+- [Stylized Egpyt](https://www.fab.com/listings/c935ca3e-dbb1-4b7d-a080-65de129c60bd)
+
 ## Status
 In development. Not yet released.
