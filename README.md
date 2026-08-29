@@ -26,10 +26,8 @@ Session Management is handled by a custom `GameInstanceSubsystem` written in C++
 5. Open `FindingKeys.sln` in your IDE and build the solution (Development Editor configuration).
 6. Launch the project from your IDE or double-click the `.uproject` file.
 
-Generate Visual Studio project files, then build from your IDE to open the project.
-
 ## Post Mortem
-Steam session joining consistently failed silently in UE5.5 - sessions were found correctly, but the join call succeeded internally without the client ever travelling. Fixed by switching to the Steam Sockets plugin (`SteamSockectsNetDriver`) and adding the required session settings during discovery, which the client needs to resolve the connection string.
+Steam session joining consistently failed silently in UE5.5 - sessions were found correctly, but the join call succeeded internally without the client ever travelling. Fixed by switching to the Steam Sockets plugin (`SteamSocketsNetDriver`) and adding the required session settings during discovery, which the client needs to resolve the connection string.
 
 ## Status
 Release on [itch.io](https://billawatts.itch.io/finding-keys).
